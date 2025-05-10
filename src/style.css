@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+@import "tailwindcss";
+
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.bg-navy {
+  background-color: #1a365d;
+}
+
+.text-navy {
+  color: #1a365d;
+}
+
+.border-gold {
+  border-color: #f8c822;
+}
+
+.text-gold {
+  color: #f8c822;
+}
+
+.bg-gold {
+  background-color: #f8c822;
+}
+
+/* Hover / Focus States */
+.hover\:bg-gold:hover {
+  background-color: #f8c822;
+}
+
+.hover\:text-navy:hover {
+  color: #1a365d;
+}
+
+.hover\:bg-gold\/10:hover {
+  background-color: rgba(248, 200, 34, 0.1);
+}
+
+.focus\:ring-gold:focus {
+  box-shadow: 0 0 0 3px rgba(248, 200, 34, 0.5);
+}
+
+.focus\:border-gold:focus {
+  border-color: #f8c822;
+}

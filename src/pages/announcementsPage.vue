@@ -2,7 +2,7 @@
 <template>
   <div class="container mx-auto p-4 font-sans">
     <div class="max-w-3xl mx-auto">
-      <h1 class="text-3xl font-serif font-bold text-navy mb-8">Announcements</h1>
+      <h1 class="text-3xl font-serif font-bold text-gold mb-8">Announcements</h1>
 
       <!-- Create Announcement (Teacher only) -->
       <div v-if="userRole === 'teacher'" class="mb-8 bg-white p-6 rounded-lg shadow-lg border-l-4 border-gold">

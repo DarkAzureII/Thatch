@@ -2,13 +2,13 @@
 <template>
     <div class="container mx-auto p-6 font-sans">
       <div class="mb-6 flex flex-col md:flex-row justify-between items-start gap-4">
-        <h1 class="text-3xl font-serif font-bold text-navy">
+        <h1 class="text-3xl font-serif font-bold text-gold">
           {{ isTeacherView ? `${studentName}'s Progress` : 'My Learning Progress' }}
         </h1>
-        <div class="flex gap-4">
+        <div class="flex gap-4 text-yellow-300">
           <select 
             v-model="selectedCourse" 
-            class="p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+            class="p-3 border bg-navy border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
           >
             <option value="all">All Courses</option>
             <option v-for="course in enrolledCourses" :key="course.id" :value="course.id">
@@ -17,7 +17,7 @@
           </select>
           <select 
             v-model="selectedTimePeriod" 
-            class="p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+            class="p-3 border bg-navy border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
           >
             <option value="all">All Time</option>
             <option value="1">Last Month</option>

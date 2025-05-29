@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col bg-svg-pattern">
     <Navbar />
     <main class="flex-grow">
       <router-view v-slot="{ Component }">
@@ -12,13 +12,13 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-4 gap-8">
           <div>
-            <img src="/Taep-logo.jpeg" alt="TAEP Logo" class="h-16 w-auto mb-4">
+            <img src="/TAEP.svg" alt="TAEP Logo" class="h-24 w-auto mb-4">
             <p class="text-sm text-gray-300">Empowering academic excellence since 2015</p>
           </div>
           <div>
             <h4 class="font-serif font-semibold mb-4">Quick Links</h4>
             <ul class="space-y-2 text-sm text-gray-300">
-              <li><a href="#" class="hover:text-gold transition-colors">About Us</a></li>
+              <li><a href="about" class="hover:text-gold transition-colors">About Us</a></li>
               <li><a href="#" class="hover:text-gold transition-colors">Programs</a></li>
               <li><a href="#" class="hover:text-gold transition-colors">Contact</a></li>
             </ul>
@@ -41,7 +41,7 @@
           </div>
         </div>
         <div class="border-t border-gray-700 mt-12 pt-8 text-center text-sm text-gray-300">
-          © 2024 The Academic Empowerment Program. All rights reserved.
+          © 2025 The Academic Empowerment Program. All rights reserved.
         </div>
       </div>
     </footer>
@@ -74,4 +74,5 @@ export default defineComponent({
   opacity: 0;
   transform: translateY(10px);
 }
+
 </style>

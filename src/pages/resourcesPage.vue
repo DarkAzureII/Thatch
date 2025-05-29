@@ -2,7 +2,7 @@
   <div class="p-4 max-w-6xl mx-auto font-sans">
     <!-- Header -->
     <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
-      <h1 class="text-3xl font-serif font-bold text-navy">Learning Resources</h1>
+      <h1 class="text-3xl font-serif font-bold text-gold">Learning Resources</h1>
       <button
         v-if="userRole === 'teacher'"
         @click="showUploadModal = true"
@@ -14,10 +14,10 @@
     </div>
 
     <!-- Filter/Search -->
-    <div class="mb-6 flex flex-col md:flex-row gap-4">
+    <div class="mb-6 flex text-gold flex-col md:flex-row gap-4">
       <select 
         v-model="selectedCourse" 
-        class="p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+        class="p-3 border bg-navy border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
       >
         <option value="">All Courses</option>
         <option 
@@ -32,7 +32,7 @@
         v-model="searchQuery"
         type="text"
         placeholder="Search resources..."
-        class="p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all flex-grow"
+        class="p-3 border bg-navy border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all flex-grow"
       >
     </div>
 
@@ -106,7 +106,7 @@
               <input 
                 v-model="newResource.title" 
                 required 
-                class="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+                class="w-full p-3 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
               >
             </div>
 
@@ -115,7 +115,7 @@
               <select 
                 v-model="newResource.courseId" 
                 required 
-                class="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+                class="w-full p-3 border border-gray-600 rounded-lg focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
                 v-if="teacherCourses.length > 0"
               >
                 <option v-for="course in teacherCourses" :key="course.id" :value="course.id">

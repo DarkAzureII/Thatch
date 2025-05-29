@@ -1,10 +1,12 @@
 <template>
-  <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-gold group">
+  <div class=" bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow border-l-4 border-gold group ">
     <div class="flex justify-between items-start gap-4">
-      <div class="flex-1">
+      <div class="flex-1 min-w-0">
         <!-- Title -->
-        <h3 class="font-serif font-semibold text-navy mb-2">{{ resource.title }}</h3>
-        
+        <h3 class="font-serif font-semibold text-navy mb-2 truncate">
+          {{ resource.title }}
+        </h3>
+                
         <!-- Course Info -->
         <p class="text-sm text-gray-600 mb-3">
           From {{ course?.name || 'Deleted Course' }}

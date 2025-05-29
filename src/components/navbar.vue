@@ -1,10 +1,10 @@
 <template>
-  <nav class="bg-white shadow-sm font-sans">
+  <nav class="shadow-sm font-sans bg-gradient-to-b from-yellow-300 to-yellow-500">
     <div class="mx-auto px-4">
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <router-link to="/" class="flex-shrink-0">
-          <img src="/Taep-logo.jpeg" alt="TAEP Logo" class="h-17 w-auto">
+          <img src="/TAEP.svg" alt="TAEP Logo" class="h-28 w-auto">
         </router-link>
 
         <!-- Desktop Menu -->
@@ -23,7 +23,7 @@
           <button 
             v-if="isLoggedIn"
             @click="handleLogout"
-            class="ml-4 px-4 py-2 bg-navy text-white rounded-md hover:bg-gold hover:text-navy transition-colors duration-200 flex items-center gap-2"
+            class="ml-4 px-4 py-2 bg-navy text-white rounded-md hover:bg-gold hover:text-navy hover:border-red-500 hover:border transition-colors duration-200 flex items-center gap-2"
           >
             <!-- SVG icon remains same -->
             Log Out

@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-4 font-sans">
     <div class="mb-6 flex flex-col md:flex-row gap-4 justify-between items-start">
-      <h1 class="text-3xl font-serif font-bold text-navy">Student Directory</h1>
+      <h1 class="text-3xl font-serif font-bold text-gold">Student Directory</h1>
       <div class="w-full md:w-64">
         <input 
           v-model="searchQuery"

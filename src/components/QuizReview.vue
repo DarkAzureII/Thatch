@@ -6,12 +6,12 @@
   
       <div v-else-if="submission">
         <div class="mb-8">
-          <h2 class="text-3xl font-serif font-bold text-navy mb-2">{{ quiz?.title }} Review</h2>
+          <h2 class="text-3xl font-serif font-bold text-gold mb-2">{{ quiz?.title }} Review</h2>
           <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div class="bg-navy text-gold px-4 py-2 rounded-full text-sm font-medium">
               Score: {{ submission.score }}/{{ submission.totalMarks }}
             </div>
-            <p class="text-sm text-gray-600">
+            <p class="text-sm text-gold">
               Submitted: {{ formatDate(submission.timestamp) }}
             </p>
           </div>

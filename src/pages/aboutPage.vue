@@ -2,7 +2,7 @@
 <template>
   <div class="container mx-auto p-4 font-sans">
     <div class="max-w-4xl mx-auto">
-      <h1 class="text-3xl font-serif font-bold text-navy mb-8">About Our Portal</h1>
+      <h1 class="text-3xl font-serif font-bold text-gold mb-8">About Our Portal</h1>
 
       <div class="bg-white rounded-lg shadow-lg p-6 mb-8 border-l-4 border-gold">
         <h2 class="text-2xl font-serif font-semibold text-navy mb-4">Our Mission</h2>

@@ -3,7 +3,7 @@
     <!-- Teacher View -->
     <div v-if="userRole === 'teacher'" class="space-y-6">
       <div class="flex flex-col md:flex-row justify-between items-center mb-8 gap-4">
-        <h2 class="text-3xl font-serif font-bold text-navy">Manage Assessments</h2>
+        <h2 class="text-3xl font-serif font-bold text-gold">Manage Assessments</h2>
         <button 
           @click="showCreateModal = true"
           class="bg-navy text-white px-6 py-3 rounded-lg hover:bg-gold hover:text-navy transition-colors duration-200 font-medium whitespace-nowrap"
@@ -72,7 +72,7 @@
 
     <!-- Student View -->
     <div v-else class="space-y-8">
-      <h2 class="text-3xl font-serif font-bold text-navy mb-8">Your Assessments</h2>
+      <h2 class="text-3xl font-serif font-bold text-gold mb-8">Your Assessments</h2>
       
       <div class="space-y-8">
         <div 

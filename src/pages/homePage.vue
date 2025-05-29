@@ -1,20 +1,20 @@
 <template>
-  <div class="min-h-screen bg-white font-sans">
+  <div class="min-h-screen bg-svg-pattern font-sans">
 
     <!-- Hero Section -->
-    <div class="bg-gradient-to-b from-navy/5 to-white">
+    <div class="bg-gradient-to-b from-navy/5 to-yellow-300">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl font-serif font-bold text-navy md:text-6xl mb-6">
+          <h1 class="text-4xl font-serif font-bold text-white md:text-6xl mb-6">
             Empowering Tomorrow's Leaders Through Education
           </h1>
-          <p class="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+          <p class="mt-4 text-xl text-white max-w-3xl mx-auto">
             Transformative learning experiences that combine academic excellence with personal growth
           </p>
           <div class="mt-8">
             <router-link 
               to="/register" 
-              class="bg-gold text-navy px-8 py-4 rounded-lg text-lg font-medium hover:bg-navy hover:text-gold transition-colors duration-200"
+              class="bg-gradient-to-r from-gold to-amber-500 text-navy px-8 py-4 rounded-lg text-lg font-medium hover:from-navy hover:to-blue-900 hover:text-gold transition-all duration-300 shadow-md hover:shadow-lg"        
             >
               Start Your Journey
             </router-link>
@@ -23,8 +23,12 @@
       </div>
     </div>
 
+    <!-- Transition Section -->
+    <!-- <div class="h-24 bg-gradient-to-b from-yellow-300 to-white"></div> -->
+
+
     <!-- Features Grid -->
-    <div class="bg-white py-24">
+    <div class="bg-gradient-to-b from-yellow-300 to-navy py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-3 gap-12">
           <div class="p-6 border-l-4 border-gold bg-white rounded-lg shadow-lg">
@@ -48,8 +52,10 @@
       </div>
     </div>
 
+    <!-- <div class="h-24 bg-gradient-to-b from-white to-navy"></div> -->
+
     <!-- Program Highlights -->
-    <div class="bg-navy text-white py-24">
+    <div class=" text-gold py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:text-center">
           <h2 class="text-3xl font-serif font-bold mb-12">Our Pillars of Success</h2>
@@ -84,7 +90,7 @@
     </div>
 
     <!-- Testimonials -->
-    <div class="bg-white py-24">
+    <div class="bg-gradient-to-b from-navy/5 to-white py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-serif font-bold text-navy text-center mb-12">Success Stories</h2>
         <div class="grid md:grid-cols-2 gap-8">

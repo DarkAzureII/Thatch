@@ -7,32 +7,51 @@
 }
 
 .bg-navy {
-  background-color: #1a365d;
+  background-color: #0e2c57;
 }
 
 .text-navy {
   color: #1a365d;
 }
 
+.bg-svg-pattern {
+  background-image: url("/3.svg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional parallax effect */
+  background-position: top center;
+  z-index: 0;
+}
+
 .border-gold {
-  border-color: #f8c822;
+  border-color: #facb21;
 }
 
 .text-gold {
-  color: #f8c822;
+  color: #facb21;
 }
 
 .bg-gold {
-  background-color: #f8c822;
+  background-color: #facb21;
 }
 
 /* Hover / Focus States */
 .hover\:bg-gold:hover {
-  background-color: #f8c822;
+  background-color: #facb21;
 }
+
+.hover\:bg-navy:hover {
+  background-color: #0e2c57;
+}
+
 
 .hover\:text-navy:hover {
   color: #1a365d;
+}
+
+.hover\:text-gold:hover {
+  color: #facb21;
 }
 
 .hover\:bg-gold\/10:hover {
@@ -44,5 +63,5 @@
 }
 
 .focus\:border-gold:focus {
-  border-color: #f8c822;
+  border-color: #facb21;
 }

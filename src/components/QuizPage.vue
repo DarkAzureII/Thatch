@@ -6,12 +6,12 @@
 
     <div v-else-if="quiz">
       <div class="mb-8">
-        <h1 class="text-3xl font-serif font-bold text-navy">{{ quiz.title }}</h1>
+        <h1 class="text-3xl font-serif font-bold text-gold">{{ quiz.title }}</h1>
         <div class="mt-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div class="bg-navy text-gold px-4 py-1 rounded-full text-sm font-medium">
             {{ quiz.course }}
           </div>
-          <div v-if="formattedTime" class="flex items-center gap-2 text-navy font-medium">
+          <div v-if="formattedTime" class="flex items-center gap-2 text-gold font-medium">
             <ClockIcon class="w-5 h-5 text-gold" />
             <span>Time Remaining: {{ formattedTime }}</span>
           </div>

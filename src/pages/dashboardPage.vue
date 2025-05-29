@@ -2,7 +2,7 @@
   <div class="p-4 max-w-6xl mx-auto font-sans">
     <!-- Header -->
     <div class="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-      <h1 class="text-3xl font-serif font-bold text-navy">Dashboard</h1>
+      <h1 class="text-3xl font-serif font-bold text-gold">Dashboard</h1>
       <div class="flex gap-4">
         <button 
           v-if="userRole === 'teacher'"

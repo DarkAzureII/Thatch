@@ -7,7 +7,7 @@
           v-model="searchQuery"
           type="search"
           placeholder="Search by name or email..."
-          class="w-full p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
+          class="w-full p-3 border bg-navy text-gold border-gray-200 rounded-xl focus:ring-2 focus:ring-gold focus:border-gold outline-none transition-all"
         >
       </div>
     </div>
